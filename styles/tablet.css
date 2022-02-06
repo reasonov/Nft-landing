@@ -1,0 +1,96 @@
+@media (min-width: 481px) {
+	.container {
+		max-width: 768px;
+		width: calc(100vw - 15px);
+		box-sizing: border-box;
+	}
+
+	.main-header {
+		padding-top: 50px
+	}
+
+	.intro {
+		padding-bottom: 120px
+	}
+
+	.intro__image {
+		top: 30px;
+		right: auto;
+		left: 35%;
+
+		width: 550px;
+		height: 550px;
+	}
+
+	.pink-text {
+		font-size: 20px;
+	}
+
+	.sale {
+		width: 95vw;
+		margin: 0 auto;
+		border-radius: 12px;
+	}
+
+	.sale__image {
+		right: 50px;
+	}
+
+	.partners {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	.products {
+		padding-bottom: 120px;
+	}
+
+	.release {
+		padding-bottom: 100px;
+	}
+
+	.release__item {
+		width: 95vw;
+		margin: 0 auto;
+		margin-bottom: 60px;
+		border-radius: 12px;
+	}
+
+	.release__item2 {
+		margin-bottom: 0px;
+	}
+
+	.release__wrapper {
+		text-align: center;
+	}
+
+	.release__text {
+		max-width: 410px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+	.nft-info {
+		padding-bottom: 120px;
+	}
+
+	.nft-block {
+		width: 95vw;
+		margin: 0 auto;
+		border-radius: 12px;
+
+		background-color: #eeeeee;
+	}
+
+	.nft-block1 {
+		margin-bottom: 60px;
+	}
+
+	.soon__title {
+		max-width: 60%;
+	}
+
+	.soon__subtitle {
+		max-width: 60%;
+	}
+}
