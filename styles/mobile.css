@@ -102,6 +102,7 @@ p {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 3px;
   color: #FF3998;
 }
 
@@ -369,6 +370,10 @@ p {
   padding-bottom: 40px;
 }
 
+.release__image--desktop {
+  display: none;
+}
+
 .release__wrapper {
   max-width: 365px;
   padding: 0 30px;
@@ -400,6 +405,11 @@ p {
   background: -webkit-linear-gradient(45deg, rgb(214, 251, 255) 28%, rgb(255, 195, 163));
   background: -moz-linear-gradient(45deg, rgb(214, 251, 255) 28%, rgb(255, 195, 163));
   background: linear-gradient(45deg, rgb(214, 251, 255) 28%, rgb(255, 195, 163));
+}
+
+.release__image2 {
+  width: 236px;
+  height: 296px;
 }
 
 .nft-block {
