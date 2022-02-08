@@ -1,6 +1,6 @@
 @media (min-width: 1441px) {
 	.container {
-		max-width: 1380px;
+		width: 100%;
 		padding: 0 60px;
 	}
 
@@ -38,13 +38,9 @@
 		margin-bottom: 25px;
 	}
 
-	.partners {
-		padding-top: 125px;
-		padding-bottom: 125px;
-	}
-
-	.products {
-		padding-bottom: 120px;
+	.products__list {
+		max-width: 1280px;
+		margin: 0 auto;
 	}
 
 	.release {
@@ -89,6 +85,8 @@
 		position: absolute;
 		right: 80px;
 		bottom: 80px;
+
+		display: block;
 	}
 
 	.release__series {
@@ -115,5 +113,37 @@
 
 	.release__wrapper2 {
 		margin-right: 100px;
+	}
+
+	.nft-info {
+		display: flex;
+	}
+
+	.nft-block1 {
+		margin-bottom: 0px;
+	}
+
+	.soon__image {
+		right: 250px;
+	}
+
+	.main-footer {
+		padding-bottom: 160px;
+	}
+
+	.footer__top {
+		display: flex;
+		justify-content: space-between;
+
+		margin-bottom: 120px;
+	}
+
+	.footer-bottom__text2 {
+		display: block;
+	}
+
+	.footer__bottom {
+		display: flex;
+		justify-content: space-between;
 	}
 }

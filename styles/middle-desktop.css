@@ -1,8 +1,8 @@
 @media (min-width: 769px) {
 	.container {
-		max-width: 1440px;
-		width: calc(100vw - 35px);
+		width: 100%;
 		padding: 0 40px;
+		box-sizing: border-box;
 	}
 
 	.main-header {
@@ -75,8 +75,27 @@
 		padding-bottom: 120px;
 	}
 
-	.products {
-		padding-bottom: 120px;
+	.slider-wrapper {
+		position: relative;
+	}
+
+	.slider__toggler {
+		position: absolute;
+		top: 0px;
+
+		width: 40px;
+		height: 100%;
+
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+
+	.slider__toggler1 {
+		left: -20px;
+		transform: rotateZ(180deg);
+	}
+
+	.slider__toggler2 {
+		right: -20px;
 	}
 
 	.release__item {
@@ -131,10 +150,13 @@
 
 	.soon {
 		padding: 100px 40px;
-		margin-bottom: 100px;
 	}
 
 	.soon__image {
 		right: 60px;
+	}
+
+	.main-footer {
+		padding:100px 0;
 	}
 }

@@ -43,9 +43,10 @@ p {
 }
 
 .container {
-  max-width: 365px;
+  width: 100%;
   padding: 0 30px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -60,12 +61,15 @@ p {
 }
 
 .main-header {
+  padding-top: 30px;
+}
+
+.header__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   width: 100%;
-  padding-top: 30px;
 }
 
 .menu {
@@ -264,6 +268,10 @@ p {
   margin-right: 40px;
 }
 
+.products__item--last {
+  margin-right: 0;
+}
+
 .card {
   width: 290px;
 
@@ -374,6 +382,10 @@ p {
   display: none;
 }
 
+.release__info {
+  display: none;
+}
+
 .release__wrapper {
   max-width: 365px;
   padding: 0 30px;
@@ -436,12 +448,14 @@ p {
 
 .soon {
   position: relative;
+
   padding-top: 65px;
   padding-bottom: 65px;
 
+  overflow: hidden;
+
   border-top: 2px solid #EEEEEE;
   border-bottom: 2px solid #EEEEEE;
-  overflow: hidden;
 
   background: -webkit-linear-gradient(90deg, rgb(255, 255, 255) 76%, rgb(255, 88, 168));
   background: -moz-linear-gradient(90deg, rgb(255, 255, 255) 76%, rgb(255, 88, 168));
@@ -507,7 +521,7 @@ p {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 10%;
+  letter-spacing: 2px;
   color: #555555;
 }
 
